@@ -1,11 +1,12 @@
 import React from "react";
-import Learning from "./Learning";
+import Learning from "./components/Learning";
+import Header from "./components/Header";
 import "./App.css";
 
 function App() {
     return (
         <div className="App">
-            <Learning />
+            <Header />
         </div>
     );
 }
