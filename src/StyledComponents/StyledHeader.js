@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export default styled.header`
-    border: 2px solid dodgerblue;
+    justify-content: space-between;
+    display: flex;
+    border: 2px solid #bc986a;
     color: #8d8741;
-    margin: 0 1em;
-    padding: 0.25em 1em;
+    margin: 20px;
+    padding: 20px;
+    align-items: flex-end;
 `;
 
 // color schemes:
